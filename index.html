@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cala Festival: Where Parting Comes to Life!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>You're Invited to the Cala Festival: Where Memes Come to Life!</h1>
+        <h2>8/24/2024</h2>
+    </header>
+
+    <main>
+        <section>
+            <h3> About the Cala Festival</h3>
+            <p>Join us for an unforgettable night of laughter, creativity, and meme magic! Dress as the essence of a meme and let's celebrate together.</p>
+
+        </section>
+
+        <section>
+            <h3>RSVP</h3>
+            <form id="rsvpForm">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="attendance">Attending?</label>
+                <select id="attendance" name="attendance" required>
+                <option value="">Please select</option>
+                <option value="yes">Yes, I'll be there!</option>
+                <option value="no">Sorry, I can't make it.</option>
+            </select>
+
+                <button type="submit">Submit</button>
+            </form>
+
+        </section>
+
+
+        <div id="confirmationMessage" style="display: none;">
+            <h2>Thank you for your RSVP!</h2>
+            <p>We can't wait to see you there!</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

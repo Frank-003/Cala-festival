@@ -1,0 +1,129 @@
+body,
+h1,
+h2,
+h3,
+p,
+label,
+input,
+select,
+button {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f100;
+    color: #333;
+    line-height: 1.5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    background-color: #ffcc00;
+    /* Golden Yellow */
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(250, 249, 249, 0.1);
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffcc00;
+    /* Golden Yellow */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    background-color: #ffcc00;
+}
+
+#confirmationMessage {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #d4edda;
+    /* Light Green */
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: none;
+    background-color: #f9f9f9;
+}
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 600px) {
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+    input[type="email"],
+    select {
+        font-size: 14px;
+    }
+    button[type="submit"] {
+        font-size: 14px;
+    }
+}
